@@ -1,0 +1,118 @@
+.main__section.section_one {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.payment_method_container .btn_container {
+  margin-bottom: 1rem;
+  padding-top: 4px;
+}
+
+.main__section.section_one .pay_btn,
+.payment_method_container .btn_container .btn_item {
+  box-shadow: none;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  padding: 8px;
+  background-color: transparent;
+  background-color: #fff;
+}
+.payment_method_container .btn_container .btn_item span {
+  font-size: 14px;
+  line-height: 20px;
+}
+.payment_method_container .btn_container .btn_item {
+  margin-right: 15px;
+  width: calc(33.333333% - 10px);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 8px 7px 5px 8px;
+}
+.payment_method_container .btn_container .btn_item img {
+  height: auto;
+  margin-bottom: 4px;
+  max-height: 14px;
+  min-height: 14px;
+  object-fit: contain;
+  max-width: 70px;
+}
+.payment_method_container .btn_container .btn_item:last-child {
+  margin-right: 0;
+}
+.main__section.section_one input.form-control {
+  min-height: 45px;
+}
+.main__section.section_one .input__grp {
+  display: flex;
+  flex-direction: column;
+}
+.main__section.section_one p,
+.main__section.section_one label,
+.main__section.section_one .pay_btn,
+.main__section.section_one button,
+.main__section.section_one button span,
+.main__section.section_one span {
+  color: rgba(0, 0, 0, 0.6);
+  transition: all 0.4s;
+}
+.main__section.section_one .p_group {
+  margin: 1rem 0;
+}
+.main__section.section_one .p_group p {
+  margin-bottom: 2px;
+}
+.main__section.section_one .p_group p span {
+  margin-left: 5px;
+}
+.main__section.section_one .pay_btn,
+.main__section.section_one .p_group p {
+  font-weight: 600;
+}
+.main__section.section_one .pay_btn {
+  width: 100%;
+}
+.main__section.section_one .btn:hover span,
+.main__section.section_one .btn:hover {
+  color: rgba(0, 0, 0, 1);
+}
+.main__section.section_one .btn:hover {
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+.main__section.section_one .payment__amount .input-group-text {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  line-height: 1;
+}
+.au__input_g img {
+  max-height: 14px;
+  min-height: 14px;
+  object-fit: contain;
+  max-width: 70px;
+}
+
+@media only screen and (max-width: 767px) {
+  .left_text_logo_col {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main__section.section_one {
+    padding: 30px 0;
+  }
+}

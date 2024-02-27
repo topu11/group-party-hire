@@ -1,0 +1,5 @@
+{
+    "require": {
+        "afterpay-global/afterpay-sdk-php": "^1.7"
+    }
+}
